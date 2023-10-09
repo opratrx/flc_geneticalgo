@@ -35,7 +35,7 @@ This source code, `main.cpp`, represents the core implementation of the Genetic 
 
 <br></br>
 
----
+<br></br>
 
 ### Environment Details
 
@@ -53,7 +53,7 @@ This source code, `main.cpp`, represents the core implementation of the Genetic 
   - Behavior is determined by the genetic algorithm, mapping between the robot's sensors (which detect the environment) and its motor (which decides movement).
   - Robots evolve over generations, improving their efficiency in collecting batteries.
 
----
+<br></br>
 
 ### Code Structure
 
@@ -67,7 +67,7 @@ This source code, `main.cpp`, represents the core implementation of the Genetic 
     - `INITIAL_POPULATION_SIZE`: Initial population of robots.
   - **Utilities**: Functions for map creation, gene mapping randomization, and more.
 
----
+<br></br>
 
 ### Getting Started
 
@@ -86,7 +86,11 @@ g++ main.cpp -o robot_sim
 ./robot_sim
 ```
 
----
+#### Program Preview
+![](https://github.com/opratrx/flc_geneticalgo/blob/master/images/CleanShot%202023-10-08%20at%2022.17.03.gif)
+
+
+<br></br>
 
 ### **Header Includes**
 The code integrates several standard C++ libraries, pivotal for the project's implementation:
@@ -108,7 +112,7 @@ The code integrates several standard C++ libraries, pivotal for the project's im
 - **fstream & ostream**: Enables file operations, useful for potential logging or data storage.
 - **utility**: Provides general-purpose utilities like `pair` and `swap`, enhancing code readability and efficiency.
 
----
+<br></br>
 
 ### **Constants and Global Variables**
 
@@ -122,7 +126,7 @@ Key constants define the scope and control parameters of the simulation:
 - **GENERATION_COUNT**: Dictates the total number of generations for which the simulation will iterate, representing the evolutionary span of the robots.
 - **INITIAL_POPULATION_SIZE**: Sets the starting population of robots, providing a foundation for the genetic algorithm's diversity.
 
----
+<br></br>
 
 ### **Enum Definitions**
 
@@ -145,7 +149,7 @@ enum BD {
 
 - **BD (Block Description)**: This enumeration captures the possible states of a grid block, such as `Wall`, `Empty`, and `Battery`. It also encapsulates potential robot movement directions, making code interpretations more intuitive.
 
----
+<br></br>
 
 ### **Utility Functions**
 
@@ -155,7 +159,7 @@ A set of utility functions streamline various tasks:
 - **randomizeMapping**: Infuses randomness into the gene mapping, which dictates robot behaviors. This function plays a pivotal role in ensuring genetic diversity.
 - **getBDFromInt**: A utility converter that translates an integer value into its corresponding block type, ensuring consistent data interpretation.
 
----
+<br></br>
 
 ### **Main Logic**
 
