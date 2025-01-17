@@ -10,7 +10,7 @@ This project is a C++ implementation of an experiment first initiated at Harvard
 
 <br></br>
 
-![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `Project Overview`
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Project Overview`
 
 This source code, `main.cpp`, represents the core implementation of the Genetic Algorithm Robots project. The project showcases the application of genetic algorithms in a simulated environment where robots navigate a grid, evolving their behavior to efficiently collect batteries. As robots navigate and make decisions, they consume energy, and their survival depends on the efficiency of their decision-making, driven by the genetic algorithm.
 
